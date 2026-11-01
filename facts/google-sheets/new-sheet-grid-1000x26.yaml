@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:new-sheet-grid
   first_seen: 2026-10-24T08:32:31Z
-  confirmations: 320
+  confirmations: 368
   stale_counter: 0
-  last_confirmed: 2026-10-31T01:30:21Z
+  last_confirmed: 2026-11-01T01:31:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

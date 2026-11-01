@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:card-insufficient-funds
   first_seen: 2026-10-24T07:53:48Z
-  confirmations: 16
+  confirmations: 18
   stale_counter: 0
-  last_confirmed: 2026-10-30T16:46:03Z
+  last_confirmed: 2026-10-31T16:46:19Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

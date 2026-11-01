@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-firestore:probe:document-schema-fingerprint
   first_seen: 2026-10-24T09:44:52Z
-  confirmations: 107
+  confirmations: 123
   stale_counter: 0
-  last_confirmed: 2026-10-31T01:00:20Z
+  last_confirmed: 2026-11-01T01:01:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

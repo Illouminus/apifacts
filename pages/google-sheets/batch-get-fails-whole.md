@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id}/values:batchGet · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-10-31 · 638 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 726 confirmations from 2 vantages
 
 > values:batchGet with an unparsable range fails as a whole with HTTP 400 "Unable to parse range"; without any ranges it returns 200 and no valueRanges field.
 

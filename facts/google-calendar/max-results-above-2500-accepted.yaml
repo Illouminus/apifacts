@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:max-results-bounds
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 81
+  confirmations: 93
   stale_counter: 0
   official_url: https://developers.google.com/workspace/calendar/api/v3/reference/events/list
-  last_confirmed: 2026-10-31T00:01:21Z
+  last_confirmed: 2026-11-01T00:00:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:anthropic:probe:no-key
   first_seen: 2026-10-31T13:08:58Z
-  last_confirmed: 2026-10-31T13:08:58Z
-  confirmations: 1
+  last_confirmed: 2026-11-01T01:15:24Z
+  confirmations: 10
   stale_counter: 0
-  vantages: [mac-dev]
+  vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot

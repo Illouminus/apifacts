@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:signatures-limit
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 127
-  last_confirmed: 2026-10-31T01:16:21Z
+  confirmations: 139
+  last_confirmed: 2026-11-01T01:15:21Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

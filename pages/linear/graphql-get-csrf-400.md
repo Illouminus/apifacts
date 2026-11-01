@@ -2,7 +2,7 @@
 
 **Linear API · GET /graphql · HTTP 400 `BAD_REQUEST`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-10-31 · 1 confirmation from 1 vantage
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 7 confirmations from 2 vantages
 
 > GET /graphql without a Content-Type is blocked as a potential CSRF: HTTP 400 BAD_REQUEST in a GraphQL errors\[\] body, before the key is checked (an Authorization header gets the same 400). With Content-Type: application/json the same GET reaches authentication.
 

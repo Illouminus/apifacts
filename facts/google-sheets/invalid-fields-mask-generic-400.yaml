@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:invalid-fields-mask
   first_seen: 2026-10-24T08:32:30Z
-  confirmations: 321
+  confirmations: 369
   stale_counter: 0
-  last_confirmed: 2026-10-31T01:46:25Z
+  last_confirmed: 2026-11-01T01:45:26Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -2,7 +2,7 @@
 
 **Resend · GET /domains · HTTP 400 `validation_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-10-31 · 1 confirmation from 1 vantage
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 10 confirmations from 2 vantages
 
 > A request whose Bearer API key is not a valid key returns HTTP 400 validation_error "API key is invalid", not a 401 (a missing key is 401 missing_api_key), in the flat {statusCode, name, message} body with WWW-Authenticate: Bearer.
 

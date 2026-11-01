@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 400 `idempotency_error`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-30 · 12 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-31 · 14 confirmations from 2 vantages
 
 > An Idempotency-Key first used on one endpoint returns HTTP 400 idempotency_error when sent to another endpoint; the message names the current path, then the original one.
 

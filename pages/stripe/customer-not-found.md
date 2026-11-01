@@ -2,7 +2,7 @@
 
 **Stripe API · GET /v1/customers/{id} · HTTP 404 `resource_missing`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-31 · 125 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-01 · 143 confirmations from 2 vantages
 
 > Retrieving a customer id that does not exist returns HTTP 404 resource_missing with error.param id and the id quoted in the message.
 

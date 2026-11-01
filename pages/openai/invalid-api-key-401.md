@@ -2,7 +2,7 @@
 
 **OpenAI API · GET /v1/models · HTTP 401 `invalid_api_key`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-10-31 · 1 confirmation from 1 vantage
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 10 confirmations from 2 vantages
 
 > A request whose Bearer key is not a valid key returns HTTP 401 error.code invalid_api_key "Incorrect API key provided: …"; the message echoes the key masked (first 8 characters, asterisks, last 4), so the message differs per key while the code stays the same.
 

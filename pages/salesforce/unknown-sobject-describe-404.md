@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/sobjects/{object}/describe · HTTP 404 `NOT_FOUND`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-31 · 637 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-01 · 726 confirmations from 2 vantages
 
 > describe on an object the org does not have returns HTTP 404 NOT_FOUND "The requested resource does not exist".
 

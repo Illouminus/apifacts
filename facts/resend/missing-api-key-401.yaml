@@ -20,10 +20,10 @@ status: verified:server:prod
 evidence:
   probe: af:resend:probe:no-key
   first_seen: 2026-10-31T13:09:02Z
-  last_confirmed: 2026-10-31T13:09:02Z
-  confirmations: 1
+  last_confirmed: 2026-11-01T00:31:26Z
+  confirmations: 10
   stale_counter: 0
-  vantages: [mac-dev]
+  vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot

@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:fixture-columns-major
   first_seen: 2026-10-24T09:42:07Z
-  confirmations: 50
+  confirmations: 58
   stale_counter: 0
-  last_confirmed: 2026-10-30T23:46:19Z
+  last_confirmed: 2026-11-01T01:45:19Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

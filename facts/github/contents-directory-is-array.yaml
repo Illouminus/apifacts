@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:contents-directory-vs-file
   first_seen: 2026-10-31T13:08:59Z
-  last_confirmed: 2026-10-31T13:08:59Z
-  confirmations: 1
+  last_confirmed: 2026-11-01T00:00:21Z
+  confirmations: 7
   stale_counter: 0
-  vantages: [mac-dev]
+  vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot
