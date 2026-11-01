@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:empty-range-has-no-values
   first_seen: 2026-10-24T08:32:30Z
-  confirmations: 52
+  confirmations: 60
   stale_counter: 0
-  last_confirmed: 2026-10-30T23:31:19Z
+  last_confirmed: 2026-11-01T01:31:19Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:fixture-date-formatted-string
   first_seen: 2026-10-24T09:42:08Z
-  confirmations: 50
+  confirmations: 57
   stale_counter: 0
-  last_confirmed: 2026-10-31T00:01:20Z
+  last_confirmed: 2026-10-31T22:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

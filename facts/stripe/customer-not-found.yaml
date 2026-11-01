@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:customer-not-found
   first_seen: 2026-10-24T07:53:50Z
-  confirmations: 125
+  confirmations: 143
   stale_counter: 0
-  last_confirmed: 2026-10-31T01:16:21Z
+  last_confirmed: 2026-11-01T01:01:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

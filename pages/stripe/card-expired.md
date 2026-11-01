@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 402 `expired_card`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-30 · 16 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-31 · 18 confirmations from 2 vantages
 
 > Confirming a PaymentIntent with test payment method pm_card_chargeDeclinedExpiredCard returns HTTP 402 card_error with code expired_card, decline_code expired_card and advice_code confirm_card_data; error.param is exp_month.
 

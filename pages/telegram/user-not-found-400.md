@@ -2,7 +2,7 @@
 
 **Telegram Bot API · GET /{bot_token}/{method} · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-10-31 · 637 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 724 confirmations from 2 vantages
 
 > getUserProfilePhotos for a user_id the bot cannot see returns HTTP 400 "Bad Request: user not found".
 

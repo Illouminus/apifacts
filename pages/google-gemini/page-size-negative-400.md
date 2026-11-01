@@ -2,7 +2,7 @@
 
 **Gemini API · GET /v1beta/models · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-10-31 · 82 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 94 confirmations from 2 vantages
 
 > A negative pageSize returns HTTP 400 INVALID_ARGUMENT "\* ListModelsRequest.page_size: page_size must be positive".
 

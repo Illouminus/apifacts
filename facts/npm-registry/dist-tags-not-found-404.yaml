@@ -19,10 +19,10 @@ status: verified:server:prod
 evidence:
   probe: af:npm-registry:probe:dist-tags-not-found
   first_seen: 2026-10-31T13:09:00Z
-  last_confirmed: 2026-10-31T13:09:00Z
-  confirmations: 1
+  last_confirmed: 2026-11-01T01:15:46Z
+  confirmations: 19
   stale_counter: 0
-  vantages: [mac-dev]
+  vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot

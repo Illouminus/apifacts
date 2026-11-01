@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:trailing-slash
   first_seen: 2026-10-20T09:01:24Z
-  confirmations: 363
+  confirmations: 397
   official_url: https://docs.github.com/en/rest/using-the-rest-api/troubleshooting-the-rest-api#404-not-found-for-an-existing-resource
-  last_confirmed: 2026-10-31T01:46:24Z
+  last_confirmed: 2026-11-01T01:15:46Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

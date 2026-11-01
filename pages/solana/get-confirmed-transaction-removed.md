@@ -2,7 +2,7 @@
 
 **Solana JSON-RPC (public mainnet endpoint) · POST / · HTTP 200 `-32601`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-10-31 · 128 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-01 · 140 confirmations from 2 vantages
 
 > getConfirmedTransaction is removed from mainnet RPC nodes: calling it returns JSON-RPC error -32601 Method not found; its replacement is getTransaction with commitment confirmed.
 

@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id}/values/{range} · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-10-30 · 51 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 59 confirmations from 2 vantages
 
 > A range naming a sheet that does not exist returns HTTP 400 INVALID_ARGUMENT "Unable to parse range: \<range\>".
 

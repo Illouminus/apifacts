@@ -17,8 +17,8 @@ status: verified:server:prod
 evidence:
   probe: af:pypi:probe:simple-no-trailing-slash
   first_seen: 2026-10-20T09:06:08Z
-  confirmations: 565
-  last_confirmed: 2026-10-31T01:46:25Z
+  confirmations: 620
+  last_confirmed: 2026-11-01T01:31:23Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

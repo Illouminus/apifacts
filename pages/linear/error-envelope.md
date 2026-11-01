@@ -2,7 +2,7 @@
 
 **Linear API · GET /graphql · HTTP 401**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-10-31 · 1 confirmation from 1 vantage
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 6 confirmations from 2 vantages
 
 ## What to do
 
