@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:daily-api-limit
   first_seen: 2026-10-24T09:20:08Z
-  confirmations: 125
+  confirmations: 141
   stale_counter: 0
-  last_confirmed: 2026-11-01T01:15:22Z
+  last_confirmed: 2026-11-02T01:16:22Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

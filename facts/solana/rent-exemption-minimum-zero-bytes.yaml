@@ -15,8 +15,8 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:rent-exemption-zero-bytes
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 140
-  last_confirmed: 2026-11-01T01:01:21Z
+  confirmations: 152
+  last_confirmed: 2026-11-02T01:00:22Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

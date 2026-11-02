@@ -2,7 +2,7 @@
 
 **Cloud Firestore (Firebase) REST API · GET /v1/projects/{project}/databases/{database}/documents/{collection}/{document} · HTTP 403 `PERMISSION_DENIED`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 124 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-02 · 140 confirmations from 2 vantages
 
 > A project id that does not exist returns HTTP 403 PERMISSION_DENIED "Permission denied on resource project \<id\>.", the same status as missing IAM rights, not 404.
 

@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:telegram:probe:get-chat-not-found
   first_seen: 2026-10-24T08:17:36Z
-  confirmations: 226
+  confirmations: 256
   stale_counter: 0
-  last_confirmed: 2026-11-01T01:45:22Z
+  last_confirmed: 2026-11-02T01:45:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

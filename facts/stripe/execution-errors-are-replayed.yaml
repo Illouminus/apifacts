@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:replayed-execution-error
   first_seen: 2026-10-24T07:53:55Z
-  confirmations: 18
+  confirmations: 20
   stale_counter: 0
-  last_confirmed: 2026-10-31T22:31:20Z
+  last_confirmed: 2026-11-01T21:30:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

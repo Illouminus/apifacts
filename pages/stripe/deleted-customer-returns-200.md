@@ -2,7 +2,7 @@
 
 **Stripe API · GET /v1/customers/{id} · HTTP 200**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-10-31 · 18 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-01 · 20 confirmations from 2 vantages
 
 ## What to do
 

@@ -2,7 +2,7 @@
 
 **npm registry · GET /-/package/{package}/dist-tags · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 19 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-02 · 54 confirmations from 2 vantages
 
 > GET /-/package/{package}/dist-tags for a package that does not exist returns HTTP 404 with the bare JSON string "Not Found", not an error object.
 
