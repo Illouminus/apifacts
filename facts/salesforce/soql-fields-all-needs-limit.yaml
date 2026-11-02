@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:soql-fields-all-needs-limit
   first_seen: 2026-10-24T09:20:10Z
-  confirmations: 125
+  confirmations: 141
   stale_counter: 0
-  last_confirmed: 2026-11-01T01:31:21Z
+  last_confirmed: 2026-11-02T01:31:22Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:idempotency-key-too-long
   first_seen: 2026-10-24T07:53:52Z
-  confirmations: 26
+  confirmations: 29
   stale_counter: 0
-  last_confirmed: 2026-10-31T23:45:20Z
+  last_confirmed: 2026-11-02T01:00:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

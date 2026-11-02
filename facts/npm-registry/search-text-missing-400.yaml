@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:npm-registry:probe:search-text-missing
   first_seen: 2026-10-31T13:09:01Z
-  last_confirmed: 2026-11-01T01:15:47Z
-  confirmations: 19
+  last_confirmed: 2026-11-02T01:16:25Z
+  confirmations: 54
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

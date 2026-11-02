@@ -2,7 +2,7 @@
 
 **OpenAI API · GET /v1/models/{model} · HTTP 401 `invalid_api_key`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 10 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-02 · 28 confirmations from 2 vantages
 
 > GET /v1/models/{model} with an invalid key returns HTTP 401 invalid_api_key even for a model id that does not exist: the key is checked before the model, so a 404 model_not_found is only reachable with a valid key.
 

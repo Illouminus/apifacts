@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:soql-unknown-field
   first_seen: 2026-10-24T09:20:11Z
-  confirmations: 124
+  confirmations: 140
   stale_counter: 0
-  last_confirmed: 2026-11-01T00:31:23Z
+  last_confirmed: 2026-11-02T00:31:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

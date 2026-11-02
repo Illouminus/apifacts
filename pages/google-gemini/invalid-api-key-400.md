@@ -2,7 +2,7 @@
 
 **Gemini API · GET /v1beta/models · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-01 · 94 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-02 · 106 confirmations from 2 vantages
 
 > An API key that does not exist returns HTTP 400 INVALID_ARGUMENT, not 401 or 403; error.details\[0\].reason is API_KEY_INVALID.
 

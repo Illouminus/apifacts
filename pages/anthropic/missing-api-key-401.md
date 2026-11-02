@@ -2,7 +2,7 @@
 
 **Claude API (Anthropic) · GET /v1/models · HTTP 401 `authentication_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-01 · 10 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-02 · 28 confirmations from 2 vantages
 
 > A request without an x-api-key header returns HTTP 401 authentication_error "x-api-key header is required" with the header x-should-retry: false.
 

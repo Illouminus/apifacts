@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/limits · HTTP 400 `URL_NOT_RESET`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-01 · 206 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-02 · 232 confirmations from 2 vantages
 
 > REST calls sent to login.salesforce.com instead of the org's instance return HTTP 400 URL_NOT_RESET "Destination URL not reset. The URL returned from login must be set", even /services/data.
 

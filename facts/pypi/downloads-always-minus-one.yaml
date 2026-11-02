@@ -15,9 +15,9 @@ status: verified:server:prod
 evidence:
   probe: af:pypi:probe:json-project
   first_seen: 2026-10-20T09:06:07Z
-  confirmations: 160
+  confirmations: 174
   official_url: https://docs.pypi.org/api/json/#get-a-project
-  last_confirmed: 2026-11-01T01:01:21Z
+  last_confirmed: 2026-11-02T01:45:21Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:
