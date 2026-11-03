@@ -2,7 +2,7 @@
 
 **Claude API (Anthropic) · GET /v1/models · HTTP 401**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-02 · 28 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-03 · 45 confirmations from 2 vantages
 
 ## What to do
 

@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-firestore:probe:order-by-unknown-field
   first_seen: 2026-10-24T08:46:02Z
-  confirmations: 232
+  confirmations: 259
   stale_counter: 0
-  last_confirmed: 2026-11-02T01:00:27Z
+  last_confirmed: 2026-11-03T01:16:24Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

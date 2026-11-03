@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-firestore:probe:empty-collection-empty-object
   first_seen: 2026-10-24T08:46:01Z
-  confirmations: 233
+  confirmations: 260
   stale_counter: 0
-  last_confirmed: 2026-11-02T01:16:24Z
+  last_confirmed: 2026-11-03T01:45:26Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

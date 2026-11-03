@@ -19,8 +19,8 @@ status: verified:server:prod
 evidence:
   probe: af:npm-registry:probe:missing-package-two-segments
   first_seen: 2026-10-31T13:09:00Z
-  last_confirmed: 2026-11-02T01:00:26Z
-  confirmations: 28
+  last_confirmed: 2026-11-03T01:45:25Z
+  confirmations: 46
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:
