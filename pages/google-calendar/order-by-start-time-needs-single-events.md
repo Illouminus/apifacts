@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-02 · 105 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-03 · 117 confirmations from 2 vantages
 
 > orderBy=startTime without singleEvents=true returns HTTP 400 "The requested ordering is not available for the particular query."; with singleEvents=true it succeeds.
 

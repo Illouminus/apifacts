@@ -15,9 +15,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:search-query-too-long
   first_seen: 2026-10-20T09:01:24Z
-  confirmations: 207
+  confirmations: 224
   official_url: https://docs.github.com/en/rest/search/search#rate-limit
-  last_confirmed: 2026-11-02T01:31:24Z
+  last_confirmed: 2026-11-03T01:01:24Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

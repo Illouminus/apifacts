@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:latest-alias-v1beta-only
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 168
+  confirmations: 187
   stale_counter: 0
-  last_confirmed: 2026-11-02T01:16:24Z
+  last_confirmed: 2026-11-03T01:01:26Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

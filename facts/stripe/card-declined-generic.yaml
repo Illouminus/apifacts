@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:card-declined-generic
   first_seen: 2026-10-24T07:53:45Z
-  confirmations: 21
+  confirmations: 23
   stale_counter: 0
-  last_confirmed: 2026-11-01T23:31:20Z
+  last_confirmed: 2026-11-02T20:30:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

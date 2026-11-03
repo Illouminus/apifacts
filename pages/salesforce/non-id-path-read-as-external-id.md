@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/sobjects/{object}/{id} · HTTP 404 `NOT_FOUND`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-02 · 416 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-03 · 464 confirmations from 2 vantages
 
 > A record path whose last segment is not an id (…/sobjects/Account/notanid) is read as an external ID field name: HTTP 404 "Provided external ID field does not exist or is not accessible: notanid".
 

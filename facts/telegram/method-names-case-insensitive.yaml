@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:telegram:probe:method-names-case-insensitive
   first_seen: 2026-10-24T08:17:39Z
-  confirmations: 415
+  confirmations: 463
   stale_counter: 0
   official_url: https://core.telegram.org/bots/api#making-requests
-  last_confirmed: 2026-11-02T01:45:28Z
+  last_confirmed: 2026-11-03T01:45:30Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

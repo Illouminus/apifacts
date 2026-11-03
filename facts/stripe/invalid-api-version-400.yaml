@@ -19,9 +19,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:invalid-api-version
   first_seen: 2026-10-24T07:53:53Z
-  confirmations: 30
+  confirmations: 33
   stale_counter: 0
-  last_confirmed: 2026-11-01T21:30:21Z
+  last_confirmed: 2026-11-02T22:00:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

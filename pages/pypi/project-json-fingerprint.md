@@ -2,7 +2,7 @@
 
 **PyPI (Python Package Index) · GET /pypi/{project}/json**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-02 · 170 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-03 · 184 confirmations from 2 vantages
 
 ## What to do
 

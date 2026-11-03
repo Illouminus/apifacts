@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:pypi:probe:simple-unnormalized-name
   first_seen: 2026-10-20T09:06:08Z
-  confirmations: 226
+  confirmations: 244
   official_url: https://docs.pypi.org/api/index-api/
-  last_confirmed: 2026-11-02T01:00:25Z
+  last_confirmed: 2026-11-03T01:16:23Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:
