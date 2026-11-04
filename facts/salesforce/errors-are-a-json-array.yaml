@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:record-not-found
   first_seen: 2026-10-24T09:20:09Z
-  confirmations: 463
+  confirmations: 511
   stale_counter: 0
-  last_confirmed: 2026-11-03T01:31:24Z
+  last_confirmed: 2026-11-04T01:45:26Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

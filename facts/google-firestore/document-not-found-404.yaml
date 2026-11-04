@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-firestore:probe:document-not-found
   first_seen: 2026-10-24T08:46:01Z
-  confirmations: 157
+  confirmations: 173
   stale_counter: 0
-  last_confirmed: 2026-11-03T00:46:22Z
+  last_confirmed: 2026-11-04T01:01:24Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

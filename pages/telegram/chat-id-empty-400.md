@@ -2,7 +2,7 @@
 
 **Telegram Bot API · GET /{bot_token}/getChat · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-03 · 282 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-04 · 309 confirmations from 2 vantages
 
 > getChat called without chat_id returns HTTP 400 "Bad Request: chat_id is empty".
 

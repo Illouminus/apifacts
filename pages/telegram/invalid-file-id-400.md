@@ -2,7 +2,7 @@
 
 **Telegram Bot API · GET /{bot_token}/getFile · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-03 · 875 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-04 · 960 confirmations from 2 vantages
 
 > getFile with a file_id that is not one Telegram issued returns HTTP 400 "Bad Request: invalid file_id".
 

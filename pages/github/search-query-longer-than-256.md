@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /search/repositories · HTTP 422 `invalid`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-03 · 224 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-04 · 242 confirmations from 2 vantages
 
 > A search q parameter longer than 256 characters returns HTTP 422 Validation Failed with errors\[0\] code invalid, field q and message The search is longer than 256 characters.
 

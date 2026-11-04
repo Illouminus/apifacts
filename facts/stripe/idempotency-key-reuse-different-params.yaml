@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:idempotency-key-reuse
   first_seen: 2026-10-24T07:53:52Z
-  confirmations: 22
+  confirmations: 24
   stale_counter: 0
-  last_confirmed: 2026-11-02T15:46:21Z
+  last_confirmed: 2026-11-03T15:15:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
