@@ -18,7 +18,7 @@ response = client.request("GET", f"/simple/{project}/")
 
 ## Dimensions
 
-env: prod · plan: any · region: any · account_state: any · also seen: [anonymous](downloads-always-minus-one.md) (verified 2026-11-03)
+env: prod · plan: any · region: any · account_state: any · also seen: [anonymous](downloads-always-minus-one.md) (verified 2026-11-04)
 
 ## Evidence
 

@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:telegram:probe:no-webhook-state
   first_seen: 2026-10-24T08:17:39Z
-  confirmations: 456
+  confirmations: 503
   stale_counter: 0
-  last_confirmed: 2026-11-03T01:45:29Z
+  last_confirmed: 2026-11-04T01:30:28Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

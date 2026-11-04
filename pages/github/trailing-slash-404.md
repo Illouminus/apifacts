@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /rate_limit/ · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-03 · 467 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-04 · 501 confirmations from 2 vantages
 
 > A REST path with a trailing slash, such as /rate_limit/, returns HTTP 404 with the plain-text body 404 Not Found instead of the endpoint's JSON.
 

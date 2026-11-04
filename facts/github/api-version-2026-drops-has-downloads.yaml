@@ -15,9 +15,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-api-version-2026
   first_seen: 2026-10-20T09:01:22Z
-  confirmations: 70
+  confirmations: 75
   official_url: https://docs.github.com/en/rest/about-the-rest-api/breaking-changes
-  last_confirmed: 2026-11-03T00:46:20Z
+  last_confirmed: 2026-11-04T00:15:20Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

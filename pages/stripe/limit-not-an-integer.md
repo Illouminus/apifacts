@@ -2,7 +2,7 @@
 
 **Stripe API · GET /v1/customers · HTTP 400 `parameter_invalid_integer`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-02 · 33 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-03 · 36 confirmations from 2 vantages
 
 > A non-numeric list limit returns HTTP 400 parameter_invalid_integer with error.param limit.
 

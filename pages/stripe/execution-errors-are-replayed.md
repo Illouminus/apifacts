@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 400 `amount_too_small`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-02 · 22 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-03 · 24 confirmations from 2 vantages
 
 > A 400 returned after the endpoint began executing, such as amount_too_small, is saved under its Idempotency-Key: a retry with the same key returns the same error with Idempotent-Replayed: true.
 
