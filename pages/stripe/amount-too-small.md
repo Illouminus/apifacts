@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 400 `amount_too_small`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-03 · 25 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-04 · 27 confirmations from 2 vantages
 
 > A PaymentIntent with amount 10 and currency usd (10 cents) returns HTTP 400 amount_too_small: the amount must convert to at least 50 cents; on a test account settling in EUR the message also gives the converted amount (€0.09).
 

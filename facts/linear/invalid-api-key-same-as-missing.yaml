@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:linear:probe:invalid-key
   first_seen: 2026-10-31T13:45:05Z
-  last_confirmed: 2026-11-04T00:15:22Z
-  confirmations: 42
+  last_confirmed: 2026-11-05T00:46:22Z
+  confirmations: 54
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

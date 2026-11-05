@@ -15,9 +15,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:followers-per-page-cap
   first_seen: 2026-10-20T09:01:21Z
-  confirmations: 501
+  confirmations: 535
   official_url: https://docs.github.com/en/rest/using-the-rest-api/using-pagination-in-the-rest-api#changing-the-number-of-items-per-page
-  last_confirmed: 2026-11-04T01:30:26Z
+  last_confirmed: 2026-11-05T01:16:25Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

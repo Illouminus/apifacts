@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:amount-too-small
   first_seen: 2026-10-24T07:53:44Z
-  confirmations: 25
+  confirmations: 27
   stale_counter: 0
-  last_confirmed: 2026-11-03T18:31:21Z
+  last_confirmed: 2026-11-04T15:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

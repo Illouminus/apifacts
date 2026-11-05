@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:model-schema-fingerprint
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 206
+  confirmations: 225
   stale_counter: 0
-  last_confirmed: 2026-11-04T01:30:26Z
+  last_confirmed: 2026-11-05T01:30:25Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

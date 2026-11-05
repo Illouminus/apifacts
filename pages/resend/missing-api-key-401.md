@@ -2,7 +2,7 @@
 
 **Resend · GET /domains · HTTP 401 `missing_api_key`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-04 · 64 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-05 · 81 confirmations from 2 vantages
 
 > A request without an API key returns HTTP 401 with the flat body {statusCode: 401, name: "missing_api_key", message: "Missing API Key"}: the error code is in name.
 

@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id}/values/{range} · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-03 · 81 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-05 · 89 confirmations from 2 vantages
 
 > An API key that does not exist returns HTTP 400 INVALID_ARGUMENT with error.details\[0\].reason API_KEY_INVALID, not 401 or 403.
 

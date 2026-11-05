@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:calendar-get-needs-oauth
   first_seen: 2026-10-24T08:41:03Z
-  confirmations: 957
+  confirmations: 1036
   stale_counter: 0
-  last_confirmed: 2026-11-04T01:45:28Z
+  last_confirmed: 2026-11-05T01:46:28Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
