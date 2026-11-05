@@ -2,7 +2,7 @@
 
 **npm registry · GET /{package}/{version} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-04 · 63 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-05 · 80 confirmations from 2 vantages
 
 > GET /{package}/{version} for an existing package with an unknown version or dist-tag returns HTTP 404 whose body is a bare JSON string "version not found: \<version\>", not an object.
 

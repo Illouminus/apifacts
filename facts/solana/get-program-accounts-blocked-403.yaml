@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:program-accounts-blocked
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 174
-  last_confirmed: 2026-11-04T00:46:22Z
+  confirmations: 186
+  last_confirmed: 2026-11-05T01:01:22Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

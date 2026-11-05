@@ -18,8 +18,8 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-cache-headers
   first_seen: 2026-10-20T09:01:23Z
-  confirmations: 75
-  last_confirmed: 2026-11-04T01:30:20Z
+  confirmations: 80
+  last_confirmed: 2026-11-05T01:30:21Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

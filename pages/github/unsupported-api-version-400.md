@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo} · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-04 · 76 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-05 · 81 confirmations from 2 vantages
 
 > An X-GitHub-Api-Version that is not a supported version, such as 2021-01-01, returns HTTP 400 Bad Request whose errors field is a string naming the supported versions.
 

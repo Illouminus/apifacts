@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-04 · 130 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-05 · 142 confirmations from 2 vantages
 
 > events.list on a calendar id that does not exist returns HTTP 404 "Not Found" with error.errors\[0\].reason notFound and no error.status.
 

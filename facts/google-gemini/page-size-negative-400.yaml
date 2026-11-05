@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:models-page-size-negative
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 129
+  confirmations: 141
   stale_counter: 0
-  last_confirmed: 2026-11-04T00:01:17Z
+  last_confirmed: 2026-11-05T00:15:24Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

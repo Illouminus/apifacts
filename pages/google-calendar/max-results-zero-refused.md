@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-04 · 129 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-05 · 141 confirmations from 2 vantages
 
 > maxResults=0 returns HTTP 400 "Invalid value '0'. Values must be within the range: \[1, ∞)" (reason invalidParameter).
 

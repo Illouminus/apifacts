@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:deleted-customer
   first_seen: 2026-10-24T07:53:50Z
-  confirmations: 21
+  confirmations: 23
   stale_counter: 0
-  last_confirmed: 2026-11-04T00:01:15Z
+  last_confirmed: 2026-11-04T17:46:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
