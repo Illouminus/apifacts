@@ -2,7 +2,7 @@
 
 **OpenAI API · GET /v1/models/{model} · HTTP 401 `invalid_request_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-05 · 80 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-06 · 98 confirmations from 2 vantages
 
 > GET /v1/models/{model} without an Authorization header returns HTTP 401 "Missing bearer authentication in header" even for a model id that does not exist: the key is checked before the model, so the 401 says nothing about the id.
 

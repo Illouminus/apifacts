@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:no-api-key
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 141
+  confirmations: 153
   stale_counter: 0
-  last_confirmed: 2026-11-05T00:46:23Z
+  last_confirmed: 2026-11-06T00:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

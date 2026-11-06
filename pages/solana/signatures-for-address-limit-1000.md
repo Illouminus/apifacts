@@ -2,7 +2,7 @@
 
 **Solana JSON-RPC (public mainnet endpoint) · POST / · HTTP 200 `-32602`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-05 · 187 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-06 · 199 confirmations from 2 vantages
 
 > getSignaturesForAddress with limit above 1000 returns JSON-RPC error -32602 Invalid limit; max 1000 instead of capping the page.
 

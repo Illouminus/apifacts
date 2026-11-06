@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:non-id-read-as-external-id
   first_seen: 2026-10-24T09:20:09Z
-  confirmations: 558
+  confirmations: 606
   stale_counter: 0
-  last_confirmed: 2026-11-05T01:30:26Z
+  last_confirmed: 2026-11-06T01:46:27Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/query · HTTP 400 `INVALID_TYPE`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-05 · 188 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-06 · 204 confirmations from 2 vantages
 
 > A SOQL query on an object the org does not have returns HTTP 400 INVALID_TYPE ("sObject type '\<object\>' is not supported").
 

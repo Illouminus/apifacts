@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/sobjects/{object}/{id} · HTTP 404 `NOT_FOUND`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-05 · 558 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-06 · 605 confirmations from 2 vantages
 
 > Retrieving a record id that does not exist returns HTTP 404 NOT_FOUND "The requested resource does not exist".
 

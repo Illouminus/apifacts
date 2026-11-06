@@ -19,8 +19,8 @@ status: verified:server:prod
 evidence:
   probe: af:npm-registry:probe:package-not-found
   first_seen: 2026-10-31T13:09:01Z
-  last_confirmed: 2026-11-05T01:16:26Z
-  confirmations: 157
+  last_confirmed: 2026-11-06T01:31:27Z
+  confirmations: 193
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:
