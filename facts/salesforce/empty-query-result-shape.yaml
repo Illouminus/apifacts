@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:soql-empty-result
   first_seen: 2026-10-24T09:20:10Z
-  confirmations: 189
+  confirmations: 205
   stale_counter: 0
-  last_confirmed: 2026-11-05T01:30:24Z
+  last_confirmed: 2026-11-06T01:31:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:default-sheet-name-localized
   first_seen: 2026-10-24T08:32:29Z
-  confirmations: 88
+  confirmations: 95
   stale_counter: 0
-  last_confirmed: 2026-11-05T00:00:21Z
+  last_confirmed: 2026-11-05T22:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

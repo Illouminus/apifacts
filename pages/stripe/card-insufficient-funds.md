@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 402 `card_declined`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-04 · 27 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-05 · 29 confirmations from 2 vantages
 
 > Confirming a PaymentIntent with test payment method pm_card_chargeDeclinedInsufficientFunds returns HTTP 402 card_error with code card_declined, decline_code insufficient_funds and advice_code try_again_later.
 

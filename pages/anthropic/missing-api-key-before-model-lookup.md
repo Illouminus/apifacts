@@ -2,7 +2,7 @@
 
 **Claude API (Anthropic) · GET /v1/models/{model_id} · HTTP 401 `authentication_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-05 · 80 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-06 · 98 confirmations from 2 vantages
 
 > GET /v1/models/{model_id} without an x-api-key returns HTTP 401 "x-api-key header is required" even for a model id that does not exist: the key is checked before the model, so the 401 says nothing about the id.
 

@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:invalid-api-key
   first_seen: 2026-10-24T08:32:30Z
-  confirmations: 89
+  confirmations: 96
   stale_counter: 0
-  last_confirmed: 2026-11-05T01:46:21Z
+  last_confirmed: 2026-11-06T00:31:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

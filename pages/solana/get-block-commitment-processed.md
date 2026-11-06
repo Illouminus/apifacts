@@ -2,7 +2,7 @@
 
 **Solana JSON-RPC (public mainnet endpoint) · POST / · HTTP 200 `-32602`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-05 · 188 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-06 · 200 confirmations from 2 vantages
 
 > getBlock with commitment processed returns JSON-RPC error -32602 Method does not support commitment below \`confirmed\`.
 

@@ -15,8 +15,8 @@ status: verified:server:prod
 evidence:
   probe: af:pypi:probe:json-unnormalized-name
   first_seen: 2026-10-20T09:06:07Z
-  confirmations: 214
-  last_confirmed: 2026-11-05T01:30:23Z
+  confirmations: 228
+  last_confirmed: 2026-11-06T00:31:22Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

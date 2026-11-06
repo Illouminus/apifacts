@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:block-commitment-processed
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 188
-  last_confirmed: 2026-11-05T00:00:23Z
+  confirmations: 200
+  last_confirmed: 2026-11-06T00:00:20Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

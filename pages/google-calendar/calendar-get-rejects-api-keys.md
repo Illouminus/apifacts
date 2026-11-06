@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id} · HTTP 401 `UNAUTHENTICATED`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-05 · 1036 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-06 · 1108 confirmations from 2 vantages
 
 > The API key that lists a public calendar's events gets HTTP 401 UNAUTHENTICATED ("API keys are not supported by this API") on calendars.get and users/me/calendarList.
 
