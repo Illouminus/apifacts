@@ -2,7 +2,7 @@
 
 **Linear API · GET /graphql · HTTP 401 `AUTHENTICATION_ERROR`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-06 · 66 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 77 confirmations from 2 vantages
 
 > A query without an Authorization header returns HTTP 401 (not 200 with errors) and errors\[0\].extensions.code AUTHENTICATION_ERROR "Authentication required, not authenticated", before the query is resolved: an issue id that does not exist is the same 401.
 

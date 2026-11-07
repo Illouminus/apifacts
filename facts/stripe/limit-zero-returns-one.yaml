@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:limit-zero-returns-one
   first_seen: 2026-10-24T07:53:53Z
-  confirmations: 28
+  confirmations: 31
   stale_counter: 0
-  last_confirmed: 2026-11-05T04:01:21Z
+  last_confirmed: 2026-11-07T00:16:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:telegram:probe:get-chat-id-empty
   first_seen: 2026-10-24T08:17:36Z
-  confirmations: 341
+  confirmations: 371
   stale_counter: 0
-  last_confirmed: 2026-11-06T01:15:26Z
+  last_confirmed: 2026-11-07T01:31:25Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

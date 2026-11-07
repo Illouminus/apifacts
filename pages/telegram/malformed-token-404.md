@@ -2,7 +2,7 @@
 
 **Telegram Bot API · GET /{bot_token}/getMe · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-06 · 1022 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-07 · 1093 confirmations from 2 vantages
 
 > A /bot\<token\>/ segment whose token lacks the \<digits\>:\<secret\> shape returns HTTP 404 "Not Found", the same answer as an unknown method, not 401.
 

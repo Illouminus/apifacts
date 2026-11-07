@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:card-lost
   first_seen: 2026-10-24T07:53:49Z
-  confirmations: 29
+  confirmations: 31
   stale_counter: 0
-  last_confirmed: 2026-11-05T19:45:20Z
+  last_confirmed: 2026-11-06T19:31:19Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

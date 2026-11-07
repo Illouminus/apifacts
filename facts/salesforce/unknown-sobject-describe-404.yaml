@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:unknown-sobject-describe
   first_seen: 2026-10-24T09:20:11Z
-  confirmations: 1112
+  confirmations: 1184
   stale_counter: 0
-  last_confirmed: 2026-11-06T01:46:28Z
+  last_confirmed: 2026-11-07T01:46:52Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id} · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-06 · 606 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-07 · 652 confirmations from 2 vantages
 
 > A fields mask naming a field that does not exist returns HTTP 400 with the generic "Request contains an invalid argument.", without naming the field.
 

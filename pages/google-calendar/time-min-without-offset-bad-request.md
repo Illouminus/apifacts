@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-06 · 153 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-07 · 165 confirmations from 2 vantages
 
 > timeMin as a date (2026-10-24) or a time without offset (2026-10-24T00:00:00) returns HTTP 400 with only "Bad Request" (reason badRequest); a timestamp with Z is accepted.
 
