@@ -2,7 +2,7 @@
 
 **npm registry · GET /{package}/{version} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-06 · 99 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 116 confirmations from 2 vantages
 
 > GET /{package}/{version} for a package that does not exist returns HTTP 404 with the bare JSON string "Not Found"; an unencoded scoped name (/@scope/name) lands on the same path shape and returns {"error": "Not found"}.
 

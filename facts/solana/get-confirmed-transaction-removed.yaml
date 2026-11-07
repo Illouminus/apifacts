@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:methods-removed
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 200
+  confirmations: 212
   official_url: https://solana.com/docs/rpc/deprecated#migration-summary
-  last_confirmed: 2026-11-06T00:31:22Z
+  last_confirmed: 2026-11-07T00:46:21Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

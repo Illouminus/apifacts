@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-renamed
   first_seen: 2026-10-20T09:01:23Z
-  confirmations: 86
+  confirmations: 91
   official_url: https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api#follow-redirects
-  last_confirmed: 2026-11-06T01:46:20Z
+  last_confirmed: 2026-11-07T01:31:21Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

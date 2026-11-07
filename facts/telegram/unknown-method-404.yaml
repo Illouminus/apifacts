@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:telegram:probe:unknown-method
   first_seen: 2026-10-24T08:17:39Z
-  confirmations: 556
+  confirmations: 604
   stale_counter: 0
-  last_confirmed: 2026-11-06T01:15:30Z
+  last_confirmed: 2026-11-07T01:46:52Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /search/repositories · HTTP 422**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-06 · 269 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-07 · 286 confirmations from 2 vantages
 
 > Search returns at most 1,000 results per query: a page past them (per_page 100, page 11) returns HTTP 422 Only the first 1000 search results are available.
 

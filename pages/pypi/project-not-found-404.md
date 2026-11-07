@@ -2,7 +2,7 @@
 
 **PyPI (Python Package Index) · GET /pypi/{project}/json · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-06 · 221 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-07 · 235 confirmations from 2 vantages
 
 > GET /pypi/{project}/json for a project that does not exist returns HTTP 404 with the JSON body {"message": "Not Found"}.
 
