@@ -2,7 +2,7 @@
 
 **npm registry · GET /{package} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 228 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 262 confirmations from 2 vantages
 
 > GET /{package} for a package that does not exist returns HTTP 404 with {"error": "Not found"}; a name spelled with uppercase letters (/Left-Pad) is the same 404, not a redirect to the lowercase package.
 

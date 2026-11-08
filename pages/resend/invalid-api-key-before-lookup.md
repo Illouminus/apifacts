@@ -2,7 +2,7 @@
 
 **Resend · GET /emails/{email_id} · HTTP 400 `validation_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 116 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 133 confirmations from 2 vantages
 
 > GET /emails/{email_id} with an invalid API key returns HTTP 400 validation_error "API key is invalid" even for an id that does not exist: the key is checked before the email is looked up, so the 400 says nothing about the id.
 

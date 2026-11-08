@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:unknown-sheet-range
   first_seen: 2026-10-24T08:32:32Z
-  confirmations: 103
+  confirmations: 110
   stale_counter: 0
-  last_confirmed: 2026-11-07T00:46:20Z
+  last_confirmed: 2026-11-07T23:31:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

@@ -2,7 +2,7 @@
 
 **Telegram Bot API · GET /{bot_token}/{method} · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-07 · 371 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-08 · 403 confirmations from 2 vantages
 
 ## What to do
 

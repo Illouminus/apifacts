@@ -2,7 +2,7 @@
 
 **OpenAI API · GET /v1/models · HTTP 401**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 115 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 132 confirmations from 2 vantages
 
 ## What to do
 

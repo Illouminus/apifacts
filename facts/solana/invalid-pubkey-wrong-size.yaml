@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:solana:probe:invalid-pubkey
   first_seen: 2026-10-20T09:15:16Z
-  confirmations: 211
-  last_confirmed: 2026-11-07T00:31:21Z
+  confirmations: 223
+  last_confirmed: 2026-11-08T00:31:22Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

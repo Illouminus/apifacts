@@ -2,7 +2,7 @@
 
 **Linear API · GET /graphql · HTTP 401 `AUTHENTICATION_ERROR`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 78 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 89 confirmations from 2 vantages
 
 > An Authorization value that is not a valid key returns exactly what no key returns: HTTP 401 AUTHENTICATION_ERROR "Authentication required, not authenticated". Linear has no separate invalid-key error, so this 401 does not tell a wrong key from a missing one.
 

@@ -17,9 +17,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:error-envelope
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 165
+  confirmations: 177
   stale_counter: 0
-  last_confirmed: 2026-11-07T01:16:20Z
+  last_confirmed: 2026-11-08T01:16:22Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

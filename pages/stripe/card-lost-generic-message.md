@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 402 `card_declined`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-06 · 31 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-07 · 33 confirmations from 2 vantages
 
 > For test payment method pm_card_visa_chargeDeclinedLostCard the 402 message is the generic "Your card was declined."; the reason is only in decline_code lost_card, with advice_code do_not_try_again.
 
