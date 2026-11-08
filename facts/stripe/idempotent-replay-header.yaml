@@ -17,9 +17,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:idempotent-replay
   first_seen: 2026-10-24T07:53:53Z
-  confirmations: 42
+  confirmations: 45
   stale_counter: 0
-  last_confirmed: 2026-11-06T18:31:05Z
+  last_confirmed: 2026-11-07T22:31:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

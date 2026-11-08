@@ -2,7 +2,7 @@
 
 **OpenAI API · GET /v1/models · HTTP 401 `invalid_request_error`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 115 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 132 confirmations from 2 vantages
 
 > A request without an Authorization header returns HTTP 401 "Missing bearer authentication in header" with error.type invalid_request_error and error.code null (an invalid key has code invalid_api_key), plus WWW-Authenticate: Bearer realm="OpenAI API".
 

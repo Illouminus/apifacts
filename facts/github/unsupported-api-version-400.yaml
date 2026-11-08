@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-api-version-unsupported
   first_seen: 2026-10-20T09:01:22Z
-  confirmations: 91
+  confirmations: 96
   official_url: https://docs.github.com/en/rest/using-the-rest-api/troubleshooting-the-rest-api#not-a-supported-version
-  last_confirmed: 2026-11-06T23:31:20Z
+  last_confirmed: 2026-11-07T23:16:20Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

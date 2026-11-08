@@ -19,9 +19,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:payment-method-types-removed
   first_seen: 2026-10-24T07:53:54Z
-  confirmations: 28
+  confirmations: 30
   stale_counter: 0
-  last_confirmed: 2026-11-06T23:16:04Z
+  last_confirmed: 2026-11-07T22:31:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

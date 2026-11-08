@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-07 · 91 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-08 · 96 confirmations from 2 vantages
 
 > An anonymous GET /repos/{owner}/{repo} for a repository that does not exist returns HTTP 404 with message Not Found.
 

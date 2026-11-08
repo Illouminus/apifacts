@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:gemini-2-0-flash-served
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 264
+  confirmations: 283
   stale_counter: 0
   official_url: https://ai.google.dev/gemini-api/docs/deprecations
-  last_confirmed: 2026-11-07T01:46:25Z
+  last_confirmed: 2026-11-08T01:30:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
