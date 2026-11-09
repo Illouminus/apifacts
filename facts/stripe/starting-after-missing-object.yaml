@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:starting-after-missing
   first_seen: 2026-10-24T07:53:56Z
-  confirmations: 45
+  confirmations: 49
   stale_counter: 0
-  last_confirmed: 2026-11-07T20:16:20Z
+  last_confirmed: 2026-11-08T22:16:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

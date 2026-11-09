@@ -2,7 +2,7 @@
 
 **Stripe API · GET /v1/customers · HTTP 400 `resource_missing`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-07 · 45 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-08 · 49 confirmations from 2 vantages
 
 > A list cursor starting_after naming an object that does not exist returns HTTP 400 resource_missing with error.param starting_after, not an empty page.
 

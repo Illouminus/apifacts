@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:gemini-1-5-retired
   first_seen: 2026-10-24T08:03:53Z
-  confirmations: 283
+  confirmations: 302
   stale_counter: 0
-  last_confirmed: 2026-11-08T01:16:25Z
+  last_confirmed: 2026-11-09T01:01:27Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

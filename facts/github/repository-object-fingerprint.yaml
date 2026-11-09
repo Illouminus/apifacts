@@ -15,8 +15,8 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-schema-fingerprint
   first_seen: 2026-10-20T09:01:23Z
-  confirmations: 94
-  last_confirmed: 2026-11-07T21:16:21Z
+  confirmations: 98
+  last_confirmed: 2026-11-08T21:16:20Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo}/contents/{dir}/{path} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-07 · 89 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-09 · 101 confirmations from 2 vantages
 
 > An anonymous GET of a two-segment contents path (dir/file) that does not exist returns HTTP 404 Not Found; a missing parent directory gets the same 404, not a separate error.
 

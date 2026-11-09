@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:parameter-unknown
   first_seen: 2026-10-24T07:53:54Z
-  confirmations: 45
+  confirmations: 49
   stale_counter: 0
-  last_confirmed: 2026-11-07T23:46:20Z
+  last_confirmed: 2026-11-08T23:31:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

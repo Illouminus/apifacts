@@ -17,8 +17,8 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:contents-directory-vs-file
   first_seen: 2026-10-31T13:08:59Z
-  last_confirmed: 2026-11-08T01:16:21Z
-  confirmations: 90
+  last_confirmed: 2026-11-09T01:01:22Z
+  confirmations: 101
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

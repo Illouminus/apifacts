@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/limits · HTTP 410**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-08 · 392 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-09 · 419 confirmations from 2 vantages
 
 > A retired REST API version (v30.0) returns HTTP 410 "The requested resource no longer exists.", while a version that does not exist yet (v99.0) returns 404.
 

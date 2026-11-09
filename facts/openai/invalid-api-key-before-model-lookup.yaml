@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:openai:probe:invalid-key
   first_seen: 2026-10-31T13:45:06Z
-  last_confirmed: 2026-11-08T01:16:23Z
-  confirmations: 133
+  last_confirmed: 2026-11-09T01:45:24Z
+  confirmations: 150
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

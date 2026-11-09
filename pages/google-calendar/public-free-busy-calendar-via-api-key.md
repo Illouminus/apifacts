@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 200**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-08 · 177 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-09 · 189 confirmations from 2 vantages
 
 ## What to do
 

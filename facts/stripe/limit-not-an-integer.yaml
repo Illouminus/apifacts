@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:limit-not-an-integer
   first_seen: 2026-10-24T07:53:53Z
-  confirmations: 46
+  confirmations: 49
   stale_counter: 0
-  last_confirmed: 2026-11-08T00:01:19Z
+  last_confirmed: 2026-11-08T19:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

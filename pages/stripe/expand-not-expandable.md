@@ -2,7 +2,7 @@
 
 **Stripe API · GET /v1/customers · HTTP 400**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-07 · 47 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-08 · 51 confirmations from 2 vantages
 
 > An expand\[\] path that is not expandable returns HTTP 400 invalid_request_error without an error code; the message quotes the path.
 
