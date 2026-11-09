@@ -2,7 +2,7 @@
 
 **npm registry · GET /-/v1/search · HTTP 400 `ERR_TEXT_MISSING`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-08 · 262 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-09 · 296 confirmations from 2 vantages
 
 > GET /-/v1/search without a text parameter, or with an empty one, returns HTTP 400 ERR_TEXT_MISSING ("'text' query parameter is required"), not an empty result list.
 

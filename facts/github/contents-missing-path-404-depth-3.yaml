@@ -19,8 +19,8 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:contents-not-found
   first_seen: 2026-10-31T13:08:59Z
-  last_confirmed: 2026-11-07T23:46:23Z
-  confirmations: 89
+  last_confirmed: 2026-11-09T01:45:21Z
+  confirmations: 101
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

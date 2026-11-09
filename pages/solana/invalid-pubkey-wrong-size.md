@@ -2,7 +2,7 @@
 
 **Solana JSON-RPC (public mainnet endpoint) · POST / · HTTP 200 `-32602`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-08 · 223 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-09 · 235 confirmations from 2 vantages
 
 > getBalance with a string that is not a base-58 public key returns JSON-RPC error -32602 Invalid param: WrongSize.
 

@@ -17,10 +17,10 @@ status: verified:server:prod
 evidence:
   probe: af:google-firestore:probe:typed-document
   first_seen: 2026-10-24T09:44:52Z
-  confirmations: 234
+  confirmations: 251
   stale_counter: 0
   official_url: https://firebase.google.com/docs/firestore/reference/rest/v1/Value
-  last_confirmed: 2026-11-08T00:31:22Z
+  last_confirmed: 2026-11-09T02:00:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

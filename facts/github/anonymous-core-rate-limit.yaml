@@ -15,9 +15,9 @@ status: verified:server:prod
 evidence:
   probe: af:github:probe:repo-anonymous
   first_seen: 2026-10-20T09:01:22Z
-  confirmations: 96
+  confirmations: 101
   official_url: https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api#primary-rate-limit-for-unauthenticated-users
-  last_confirmed: 2026-11-07T22:01:20Z
+  last_confirmed: 2026-11-08T22:01:20Z
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

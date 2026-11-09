@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:order-by-start-time
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 177
+  confirmations: 189
   stale_counter: 0
-  last_confirmed: 2026-11-08T01:16:22Z
+  last_confirmed: 2026-11-09T01:16:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

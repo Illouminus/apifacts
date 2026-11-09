@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id}/values/{range} · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-08 · 111 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-09 · 118 confirmations from 2 vantages
 
 > An unknown valueRenderOption returns HTTP 400 INVALID_ARGUMENT naming the field in snake_case (value_render_option) and the rejected value.
 
