@@ -1,4 +1,8 @@
 # Keyless step: what an agent gets when no API key reaches the API.
+# No assert on $.error.message: in a night window (2026-11-09 22:16Z, 2026-11-10 02:31-06:31Z)
+# Google answered the same request with "Permission denied on the service." instead of
+# "Method doesn't allow unregistered callers ..."; the claim (403 PERMISSION_DENIED, not 401)
+# held in every run, only the text flapped, and three such runs made the fact stale (#134).
 id: af:google-gemini:probe:models-no-key
 service: google-gemini
 env: prod
@@ -7,4 +11,3 @@ steps:
 assert:
   - {step: 1, status: 403}
   - {step: 1, json_path: $.error.status, equals: PERMISSION_DENIED}
-  - {step: 1, json_path: $.error.message, contains: "Method doesn't allow unregistered callers"}

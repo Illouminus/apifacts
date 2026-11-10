@@ -1,3 +1,5 @@
+# No assert on $.error.message: Google also answers "Permission denied on the service."
+# (seen 2026-11-10 12:45Z; the same flap made google-gemini/missing-api-key-403 stale, #134).
 id: af:google-sheets:probe:no-api-key
 service: google-sheets
 env: prod
@@ -6,4 +8,3 @@ steps:
 assert:
   - {step: 1, status: 403}
   - {step: 1, json_path: $.error.status, equals: PERMISSION_DENIED}
-  - {step: 1, json_path: $.error.message, contains: "Method doesn't allow unregistered callers"}
