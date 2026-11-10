@@ -2,7 +2,7 @@
 
 **Cloud Firestore (Firebase) REST API · GET /v1/projects/{project}/databases/{database}/documents/{collection} · HTTP 400 `INVALID_ARGUMENT`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-09 · 419 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-10 · 445 confirmations from 2 vantages
 
 > A negative pageSize returns HTTP 400 "Page size must be nonnegative.".
 

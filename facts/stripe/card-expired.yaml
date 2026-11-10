@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:card-expired
   first_seen: 2026-10-24T07:53:46Z
-  confirmations: 35
+  confirmations: 38
   stale_counter: 0
-  last_confirmed: 2026-11-08T15:01:19Z
+  last_confirmed: 2026-11-09T23:45:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

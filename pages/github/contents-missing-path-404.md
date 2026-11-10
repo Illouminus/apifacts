@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo}/contents/{path} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-09 · 101 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-10 · 112 confirmations from 2 vantages
 
 > An anonymous GET /repos/{owner}/{repo}/contents/{path} for a file path that does not exist returns HTTP 404 with message Not Found and a documentation_url to the get-repository-content docs.
 

@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /rate_limit**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-09 · 673 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-10 · 707 confirmations from 2 vantages
 
 ## What to do
 

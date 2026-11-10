@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:stripe:probe:card-incorrect-cvc
   first_seen: 2026-10-24T07:53:47Z
-  confirmations: 35
+  confirmations: 38
   stale_counter: 0
-  last_confirmed: 2026-11-08T16:15:41Z
+  last_confirmed: 2026-11-10T00:46:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

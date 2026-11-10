@@ -19,10 +19,10 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:time-min-needs-offset
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 189
+  confirmations: 201
   stale_counter: 0
   official_url: https://developers.google.com/workspace/calendar/api/v3/reference/events/list
-  last_confirmed: 2026-11-09T01:45:22Z
+  last_confirmed: 2026-11-10T01:46:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
