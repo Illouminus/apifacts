@@ -4,7 +4,7 @@
 
 Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-10 · 196 confirmations from 2 vantages
 
-> A request with no API key returns HTTP 403 PERMISSION_DENIED ("Method doesn't allow unregistered callers"), not 401.
+> A request with no API key returns HTTP 403 PERMISSION_DENIED, not 401; the message varies ("Method doesn't allow unregistered callers" or "Permission denied on the service.").
 
 ## What to do
 
@@ -25,8 +25,7 @@ HTTP 403
 
 {
   "error": {
-    "status": "PERMISSION_DENIED",
-    "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API."
+    "status": "PERMISSION_DENIED"
   }
 }
 ```
