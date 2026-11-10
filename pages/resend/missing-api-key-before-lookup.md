@@ -2,7 +2,7 @@
 
 **Resend · GET /emails/{email_id} · HTTP 401 `missing_api_key`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-09 · 150 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-10 · 167 confirmations from 2 vantages
 
 > GET /emails/{email_id} without an API key returns HTTP 401 missing_api_key even for an id that does not exist: the key is checked before the email is looked up, so the 401 says nothing about the id.
 

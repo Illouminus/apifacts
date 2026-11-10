@@ -20,8 +20,8 @@ status: verified:server:prod
 evidence:
   probe: af:linear:probe:graphql-get-csrf
   first_seen: 2026-10-31T13:45:05Z
-  last_confirmed: 2026-11-09T01:45:21Z
-  confirmations: 101
+  last_confirmed: 2026-11-10T00:31:22Z
+  confirmations: 112
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:

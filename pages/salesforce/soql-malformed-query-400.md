@@ -2,7 +2,7 @@
 
 **Salesforce Platform REST API · GET /services/data/{version}/query · HTTP 400 `MALFORMED_QUERY`**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-09 · 252 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-10 · 268 confirmations from 2 vantages
 
 > A SOQL query with a syntax error returns HTTP 400 MALFORMED_QUERY naming the unexpected token ("unexpected token: 'SELEC'").
 

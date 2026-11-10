@@ -18,9 +18,9 @@ evidence:
   probe: af:telegram:probe:error-envelope
   official_url: https://core.telegram.org/bots/api#making-requests
   first_seen: 2026-10-24T08:17:36Z
-  confirmations: 434
+  confirmations: 462
   stale_counter: 0
-  last_confirmed: 2026-11-09T02:00:24Z
+  last_confirmed: 2026-11-10T01:16:27Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

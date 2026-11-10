@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo}/contents/{path} · HTTP 404**
 
-Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-09 · 99 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-31 · last confirmed 2026-11-10 · 111 confirmations from 2 vantages
 
 > GET /repos/{owner}/{repo}/contents/{path}?ref=\<ref\> with a ref that names no branch, tag or commit returns HTTP 404 "No commit found for the ref \<ref\>", even when the path exists on the default branch.
 

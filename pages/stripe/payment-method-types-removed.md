@@ -2,7 +2,7 @@
 
 **Stripe API · POST /v1/payment_intents · HTTP 400**
 
-Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-08 · 32 confirmations from 2 vantages
+Status: ✅ verified:server:sandbox · first seen 2026-10-24 · last confirmed 2026-11-09 · 34 confirmations from 2 vantages
 
 > On API version 2026-09-30.endive, creating a PaymentIntent with payment_method_types returns HTTP 400 (no error code, parameter no longer supported); the same request on version 2024-06-20 succeeds.
 

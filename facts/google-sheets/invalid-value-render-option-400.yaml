@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:invalid-value-render-option
   first_seen: 2026-10-24T08:32:30Z
-  confirmations: 118
+  confirmations: 125
   stale_counter: 0
-  last_confirmed: 2026-11-09T00:31:19Z
+  last_confirmed: 2026-11-09T23:16:21Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

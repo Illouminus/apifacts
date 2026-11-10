@@ -2,7 +2,7 @@
 
 **GitHub REST API · GET /repos/{owner}/{repo} · HTTP 301**
 
-Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-09 · 100 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-20 · last confirmed 2026-11-10 · 105 confirmations from 2 vantages
 
 > GET /repos/{owner}/{repo} on a renamed or transferred repository returns HTTP 301 Moved Permanently with Location /repositories/{id} instead of the repository object.
 

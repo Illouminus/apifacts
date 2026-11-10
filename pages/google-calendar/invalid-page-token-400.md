@@ -2,7 +2,7 @@
 
 **Google Calendar API · GET /calendar/v3/calendars/{calendar_id}/events · HTTP 400**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-09 · 189 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-10 · 201 confirmations from 2 vantages
 
 > A pageToken the API did not issue returns HTTP 400 "Invalid page token value.".
 

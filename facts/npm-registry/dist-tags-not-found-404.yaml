@@ -19,8 +19,8 @@ status: verified:server:prod
 evidence:
   probe: af:npm-registry:probe:dist-tags-not-found
   first_seen: 2026-10-31T13:09:00Z
-  last_confirmed: 2026-11-09T01:45:27Z
-  confirmations: 296
+  last_confirmed: 2026-11-10T01:16:28Z
+  confirmations: 330
   stale_counter: 0
   vantages: [mac-dev, illouminus]
 provenance:
