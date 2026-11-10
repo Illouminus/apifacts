@@ -10,7 +10,7 @@ signal:
   error_code: PERMISSION_DENIED
   error_string: "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API."
   normalized: "method doesn't allow unregistered callers (callers without established identity). please use api key or other form of api consumer identity to call this api."
-claim: "Reading even a public spreadsheet with no API key or token returns HTTP 403 PERMISSION_DENIED (\"Method doesn't allow unregistered callers\")."
+claim: "Reading even a public spreadsheet with no API key or token returns HTTP 403 PERMISSION_DENIED; the message varies (\"Method doesn't allow unregistered callers\" or \"Permission denied on the service.\")."
 dimensions:
   env: prod
   account_state: any

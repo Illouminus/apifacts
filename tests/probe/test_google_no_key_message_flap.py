@@ -1,6 +1,6 @@
-"""The keyless gemini probe holds its claim (403 PERMISSION_DENIED) under both texts Google sends.
+"""The keyless Google probes hold their claim (403 PERMISSION_DENIED) under both texts.
 
-Night window 2026-11-09/10: the same GET /v1beta/models without a key answered
+Night window 2026-11-09/10 (gemini) and 2026-11-10 12:45Z (sheets): a keyless request answered
 "Permission denied on the service." instead of "Method doesn't allow unregistered callers";
 an assert on the message turned three such runs into a stale fact (agent-facts#134).
 """
@@ -16,7 +16,11 @@ from apifacts.probe.http import StepResponse
 from apifacts.schema.models import Probe
 from apifacts.schema.yamlio import load_yaml, plain
 
-PROBE = Path(__file__).resolve().parents[2] / "probes/google-gemini/models-no-key.yaml"
+ROOT = Path(__file__).resolve().parents[2]
+PROBES = [
+    ROOT / "probes/google-gemini/models-no-key.yaml",
+    ROOT / "probes/google-sheets/no-api-key.yaml",  # same flap 2026-11-10 12:45Z
+]
 
 DAY = (
     "Method doesn't allow unregistered callers (callers without established identity). "
@@ -37,19 +41,21 @@ def _response(status: int, error_status: str, message: str) -> StepResponse:
     )
 
 
-def _outcome(resp: StepResponse) -> bool:
-    probe = Probe.model_validate(plain(load_yaml(PROBE)))
+def _outcome(path: Path, resp: StepResponse) -> bool:
+    probe = Probe.model_validate(plain(load_yaml(path)))
     return all(evaluate(a, {1: resp}).ok for a in probe.assertions)
 
 
+@pytest.mark.parametrize("path", PROBES, ids=lambda p: p.parent.name)
 @pytest.mark.parametrize("message", [DAY, NIGHT])
-def test_both_texts_pass(message):
-    assert _outcome(_response(403, "PERMISSION_DENIED", message))
+def test_both_texts_pass(path, message):
+    assert _outcome(path, _response(403, "PERMISSION_DENIED", message))
 
 
+@pytest.mark.parametrize("path", PROBES, ids=lambda p: p.parent.name)
 @pytest.mark.parametrize(
     ("status", "error_status"),
     [(401, "UNAUTHENTICATED"), (403, "UNAUTHENTICATED"), (400, "PERMISSION_DENIED")],
 )
-def test_claim_still_guarded(status, error_status):
-    assert not _outcome(_response(status, error_status, NIGHT))
+def test_claim_still_guarded(path, status, error_status):
+    assert not _outcome(path, _response(status, error_status, NIGHT))
