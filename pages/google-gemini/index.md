@@ -23,7 +23,7 @@ Hosts: `generativelanguage.googleapis.com` · 17 facts
 
 - ✅ verified:server:prod · [`API key not valid. Please pass a valid API key.`](invalid-api-key-400.md) · GET /v1beta/models · env prod
 - 🔵 official · [`Your API key was reported as leaked. Please use another API key.`](leaked-key-403.md) · POST /v1beta/models/{model_and_method} · env prod
-- ✅ verified:server:prod · [`Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.`](missing-api-key-403.md) · GET /v1beta/models · env prod
+- ⚪ stale · [`Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.`](missing-api-key-403.md) · GET /v1beta/models · env prod
 
 ## Pagination
 
