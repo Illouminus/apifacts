@@ -2,7 +2,7 @@
 
 **Gemini API · GET /v1beta/models · HTTP 403 `PERMISSION_DENIED`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-10 · 196 confirmations from 2 vantages
+Status: ⚪ stale · first seen 2026-10-24 · last confirmed 2026-11-10 · 196 confirmations from 2 vantages · not reproduced by the last 3 probe runs; not refuted
 
 > A request with no API key returns HTTP 403 PERMISSION_DENIED ("Method doesn't allow unregistered callers"), not 401.
 
