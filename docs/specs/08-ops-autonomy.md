@@ -64,7 +64,7 @@ the tap.
 |--------|-------|
 | Edouard | 2–3 h once (seed list, accounts via `keyput`, repo public, DNS); then ~10–15 min/week |
 | Agent | W0–W8 ≈ 2–3 sessions; run ≈ 1 agent-hour/week (unmeasured estimate) |
-| Money | $0 target for wave 1: free tiers and sandboxes; CI minutes on the private repo until public |
+| Money | $0 target for wave 1: free tiers and sandboxes; CI minutes are free on the public repository |
 
 ## Megabrain state
 

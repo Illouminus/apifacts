@@ -17,8 +17,8 @@ plugin, GitHub Action), and the request itself is the contribution. Code MIT, da
   it first. When it disagrees with the code or the live API (`https://apifacts.dev/healthz`,
   `/v0/services`), the code and the live API win, and you fix `PROJECT.md` in the same PR.
 - `docs/specs/` — design contracts (index `docs/specs/README.md`). A behaviour change updates its
-  spec in the same PR. Where a spec lags the code, the code wins; known gaps are listed in
-  `docs/PROJECT.md`.
+  spec in the same PR. Where a spec lags the code, the code wins; a gap found later goes into a
+  "Where specs lag the code" section of `docs/PROJECT.md` until the spec is fixed.
 - `CONTRIBUTING.md` — fact PR rules and dev setup. `ops/README.md` — host layout, deploy, release,
   digest, kill switch. `action/README.md`, `plugins/pytest/README.md`, `skills/apifacts/SKILL.md` —
   the client surfaces.
