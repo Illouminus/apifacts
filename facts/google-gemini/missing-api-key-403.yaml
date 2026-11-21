@@ -16,16 +16,16 @@ dimensions:
   account_state: any
 fixes:
   - {action: set_header, name: x-goog-api-key, value_source: account_setting:api_key}
-status: verified:server:prod
+status: stale
 evidence:
   probe: af:google-gemini:probe:models-no-key
   first_seen: 2026-10-24T08:03:54Z
   confirmations: 196
-  stale_counter: 0
+  stale_counter: 3
   last_confirmed: 2026-11-10T00:15:23Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot
   created: 2026-10-24
-  history: [{date: 2026-10-24, change: created, by: bot}]
+  history: [{date: 2026-10-24, change: created, by: bot}, {date: 2026-11-10, change: stale, by: bot, previous_status: verified:server:prod}]
