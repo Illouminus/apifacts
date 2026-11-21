@@ -31,7 +31,7 @@ Spec: `docs/specs/08-ops-autonomy.md`. No Docker: a git checkout of this repo at
 ## First install (once)
 
 ```bash
-gh repo clone Illouminus/apifacts ~/apps/agent-facts      # gh keyring: the repo is private
+gh repo clone Illouminus/apifacts ~/apps/agent-facts      # public repository
 cd ~/apps/agent-facts && git checkout --detach origin/main
 ~/.local/bin/uv sync --frozen --no-dev && mkdir -p var
 export XDG_RUNTIME_DIR=/run/user/$(id -u)                     # over non-interactive ssh

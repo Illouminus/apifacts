@@ -33,7 +33,7 @@ POST api.stripe.com/v1/payment_intents → 400 idempotency_error
 Same behaviour via a custom reporter: on test failure inspect `error.response` (axios), `error.status`
 + `error.request` (fetch wrappers, SDKs); same privacy rules; TypeScript, vitest-compatible reporter too.
 
-## MCP server (wave 2, `apifacts/mcp`)
+## MCP server (wave 2, `apifacts/mcp_server.py`)
 
 One tool only: `check(target, error?)` with a 40-word description; no resources, no prompts. Listed in
 the official registry after pages and plugins exist (plan §21: pages and plugins before MCP).

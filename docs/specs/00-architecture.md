@@ -34,7 +34,8 @@ end-to-end on illouminus for the wave-1 services, and no component calls an LLM.
 | pytest plugin | `plugins/pytest/` (package `apifacts-pytest`) | user's test run | W6 |
 | Seed content | `services/*.yaml`, `facts/*/*.yaml`, `probes/*/*.yaml` | git | W7 |
 | Ops | `ops/systemd/*`, `ops/digest.py`, `ops/deploy.sh` | illouminus | W8 |
-| jest plugin, MCP server | `plugins/jest/`, `apifacts/mcp` | user's test run / agent host | W9 |
+| MCP server | `apifacts/mcp_server.py` (`apifacts mcp`, extra `apifacts[mcp]`) | agent host | W9 |
+| jest plugin | planned, not in this repository yet | user's test run | W9 |
 
 ## Repository layout
 
@@ -49,10 +50,10 @@ apifacts/
   facts/<service>/<slug>.yaml
   probes/<service>/<slug>.yaml
   pages/               # generated, committed (deterministic output)
-  plugins/pytest/ · plugins/jest/
+  plugins/pytest/
   ops/
   tests/
-  docs/                # specs, plan, decisions, research, panels
+  docs/                # PROJECT.md (current state), specs/
   .github/workflows/ci.yml
 ```
 
