@@ -22,7 +22,7 @@ Hosts: `www.googleapis.com` · 14 facts
 ## Auth quirks
 
 - ✅ verified:server:prod · [`API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication`](calendar-get-rejects-api-keys.md) · GET /calendar/v3/calendars/{calendar_id} · env prod
-- ✅ verified:server:prod · [`Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.`](missing-api-key-403.md) · GET /calendar/v3/calendars/{calendar_id}/events · env prod
+- ⚪ stale · [`Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.`](missing-api-key-403.md) · GET /calendar/v3/calendars/{calendar_id}/events · env prod
 - ✅ verified:server:prod · [events.list with only an API key works on a calendar shared publicly as free/busy: HTTP 200 with accessRole freeBusyReader, items and a nextSyncToken.](public-free-busy-calendar-via-api-key.md) · GET /calendar/v3/calendars/{calendar_id}/events · env prod
 
 ## Pagination

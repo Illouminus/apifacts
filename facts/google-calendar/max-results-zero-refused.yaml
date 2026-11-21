@@ -19,9 +19,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-calendar:probe:max-results-bounds
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 201
+  confirmations: 332
   stale_counter: 0
-  last_confirmed: 2026-11-10T00:46:23Z
+  last_confirmed: 2026-11-21T00:16:19Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

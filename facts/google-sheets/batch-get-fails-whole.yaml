@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-sheets:probe:batch-get-one-bad-range
   first_seen: 2026-10-24T08:32:29Z
-  confirmations: 1401
+  confirmations: 2200
   stale_counter: 0
-  last_confirmed: 2026-11-10T01:46:27Z
+  last_confirmed: 2026-11-21T01:46:28Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

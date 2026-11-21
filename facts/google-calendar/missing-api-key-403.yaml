@@ -15,16 +15,16 @@ dimensions:
   account_state: any
 fixes:
   - {action: set_param, name: key, value_source: account_setting:api_key, location: query}
-status: verified:server:prod
+status: stale
 evidence:
   probe: af:google-calendar:probe:no-api-key
   first_seen: 2026-10-24T08:41:04Z
-  confirmations: 201
-  stale_counter: 0
-  last_confirmed: 2026-11-10T01:01:21Z
+  confirmations: 262
+  stale_counter: 41
+  last_confirmed: 2026-11-17T14:16:18Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe
   author: bot
   created: 2026-10-24
-  history: [{date: 2026-10-24, change: created, by: bot}]
+  history: [{date: 2026-10-24, change: created, by: bot}, {date: 2026-11-10, change: stale, by: bot, previous_status: verified:server:prod}, {date: 2026-11-10, change: restored, by: bot}, {date: 2026-11-14, change: stale, by: bot, previous_status: verified:server:prod}, {date: 2026-11-15, change: restored, by: bot}, {date: 2026-11-17, change: stale, by: bot, previous_status: verified:server:prod}, {date: 2026-11-17, change: restored, by: bot}, {date: 2026-11-17, change: stale, by: bot, previous_status: verified:server:prod}]

@@ -20,9 +20,9 @@ status: verified:server:sandbox
 evidence:
   probe: af:salesforce:probe:soql-malformed-query
   first_seen: 2026-10-24T09:20:10Z
-  confirmations: 268
+  confirmations: 443
   stale_counter: 0
-  last_confirmed: 2026-11-10T01:01:23Z
+  last_confirmed: 2026-11-21T01:01:20Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

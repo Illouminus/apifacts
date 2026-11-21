@@ -1,12 +1,12 @@
 # apifacts registry
 
-Facts about how APIs, SDKs and CLIs behave, for AI agents; each page shows how its fact was established. Registry version 2026-11-10 · 15 services · 211 facts.
+Facts about how APIs, SDKs and CLIs behave, for AI agents; each page shows how its fact was established. Registry version 2026-11-21 · 15 services · 211 facts.
 
 | Service | Facts | ✅ verified | 🔵 official | 🟡 reported | ⚪ stale | ⛔ retracted |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | [Claude API (Anthropic)](anthropic/index.md) | 5 | 5 | 0 | 0 | 0 | 0 |
 | [GitHub REST API](github/index.md) | 29 | 22 | 7 | 0 | 0 | 0 |
-| [Google Calendar API](google-calendar/index.md) | 14 | 11 | 3 | 0 | 0 | 0 |
+| [Google Calendar API](google-calendar/index.md) | 14 | 10 | 3 | 0 | 1 | 0 |
 | [Cloud Firestore (Firebase) REST API](google-firestore/index.md) | 18 | 15 | 3 | 0 | 0 | 0 |
 | [Gemini API](google-gemini/index.md) | 17 | 12 | 4 | 0 | 1 | 0 |
 | [Google Sheets API](google-sheets/index.md) | 20 | 18 | 2 | 0 | 0 | 0 |
