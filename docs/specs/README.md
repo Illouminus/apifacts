@@ -1,6 +1,6 @@
 # Specs (v0.1, 2026-10-20)
 
-Design contracts for the first build. English on purpose: the repository will be public and read by
+Design contracts for the first build. English on purpose: the repository is public and read by
 agents and contributors worldwide; the internal history (plan, decisions, panels) stays in Russian.
 
 | # | File | What it fixes |

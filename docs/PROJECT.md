@@ -55,16 +55,3 @@ solana 14 · anthropic 5 · npm-registry 5 · openai 5 · linear 4 · resend 4.
 Usage (external `check()` callers, downloads, readers): not measured in this repository; the
 weekly digest computes it on the host (`ops/README.md`, "Adoption", "Readers").
 
-## Where specs lag the code
-
-Found 2026-11-21; the code is right until the spec is fixed.
-
-- `docs/specs/08-ops-autonomy.md`, "Timers": omits `agentfacts-indexnow.timer`. Its deploy line names a GHCR image; deploy is a git checkout without an image (`ops/README.md`,
-  spec 00 "Stack and why").
-- `docs/specs/00-architecture.md`, "Repository layout": lists `plugins/jest/` and `docs/` with plan,
-  decisions, research and panels; neither is in this repository.
-- `docs/specs/07-plugins.md`: the MCP server is `apifacts/mcp_server.py`, not `apifacts/mcp`.
-- `CONTRIBUTING.md`, "Development setup": CI already runs `apifacts validate`,
-  `apifacts pages build --check` and the pytest plugin's own tests (`.github/workflows/ci.yml`).
-- `docs/specs/README.md` says the repository "will be public"; it is public. `ops/README.md`,
-  "First install", calls the repository private.

@@ -14,8 +14,9 @@ receives the weekly journal line automatically, the Monday digest arrives in Tel
 | `agentfacts-refresh.timer` | daily 03:00 Europe/Paris | `apifacts probe run --refresh-evidence` (counters → facts/, added 24.10.2026) |
 | `agentfacts-pages.timer` | on merge (CI) | pages build in CI, not on the host |
 | `agentfacts-digest.timer` | Mon 08:00 Europe/Paris | `ops/digest.py` → Telegram (question class, D-062) |
+| `agentfacts-indexnow.timer` | daily 05:00 Europe/Paris | `ops/indexnow.py` → IndexNow ping for changed pages (after the 03:00 refresh and its deploy) |
 
-Deploy: `vps-auto-deploy` pattern (GHCR image, forced-command SSH restart, health check on `/healthz`).
+Deploy: git checkout on the host, no image — `ops/deploy.sh` behind a forced-command SSH key: detached checkout of the merged sha, `uv sync --frozen --no-dev`, restart `agentfacts-api`, poll `/healthz`, roll back on failure.
 
 GitHub access on the host: the bot uses only its own token `agent-facts-bot` (repo-scoped PAT, D-089);
 `deploy.sh` fetches the public repo anonymously. Units carry the seccomp/prctl hardening that works for
@@ -63,7 +64,7 @@ the tap.
 |--------|-------|
 | Edouard | 2–3 h once (seed list, accounts via `keyput`, repo public, DNS); then ~10–15 min/week |
 | Agent | W0–W8 ≈ 2–3 sessions; run ≈ 1 agent-hour/week (unmeasured estimate) |
-| Money | $0 target for wave 1: free tiers and sandboxes; CI minutes on the private repo until public |
+| Money | $0 target for wave 1: free tiers and sandboxes; CI minutes are free on the public repository |
 
 ## Megabrain state
 

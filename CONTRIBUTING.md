@@ -16,13 +16,16 @@ From most to least automatic:
 Requires [uv](https://docs.astral.sh/uv/). Python 3.12 is installed by uv if missing.
 
 ```bash
-uv sync
+uv sync --locked
 uv run ruff check .
 uv run pytest -q
+uv run apifacts validate
+uv run apifacts pages build --check   # pages/ must match services/ + facts/
+(cd plugins/pytest && uv sync --locked && uv run pytest -q)   # the pytest plugin's own tests
 ```
 
-All three must be green before you push. CI runs the same commands (plus `apifacts validate` once the
-schemas exist) on every pull request.
+All of them must be green before you push. CI (`.github/workflows/ci.yml`) runs the same commands on
+every pull request.
 
 ## Rules for a fact pull request
 
