@@ -20,9 +20,9 @@ status: verified:server:prod
 evidence:
   probe: af:google-gemini:probe:unknown-query-parameter
   first_seen: 2026-10-24T08:03:54Z
-  confirmations: 201
+  confirmations: 332
   stale_counter: 0
-  last_confirmed: 2026-11-10T01:01:22Z
+  last_confirmed: 2026-11-21T00:31:17Z
   vantages: [mac-dev, illouminus]
 provenance:
   source: probe

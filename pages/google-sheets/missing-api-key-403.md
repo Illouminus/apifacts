@@ -2,7 +2,7 @@
 
 **Google Sheets API · GET /v4/spreadsheets/{spreadsheet_id}/values/{range} · HTTP 403 `PERMISSION_DENIED`**
 
-Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-09 · 124 confirmations from 2 vantages
+Status: ✅ verified:server:prod · first seen 2026-10-24 · last confirmed 2026-11-21 · 204 confirmations from 2 vantages
 
 > Reading even a public spreadsheet with no API key or token returns HTTP 403 PERMISSION_DENIED; the message varies ("Method doesn't allow unregistered callers" or "Permission denied on the service.").
 
