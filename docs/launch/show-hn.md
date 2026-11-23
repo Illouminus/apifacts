@@ -9,8 +9,8 @@ Written 2026-11-23 against `main` at `663cc5f`: 15 services, 211 facts (`docs/PR
 ## 1. Registry to ~30 services before the post
 
 The post only works if a reader's first `check()` against an API they use returns a fact. Today the
-registry covers 15 services, nine of them keyed (Stripe, Salesforce, Google Workspace, ...), which a
-reader cannot reproduce in 30 seconds. The additions below are all **keyless**: anonymous GETs,
+registry covers 15 services; 11 declare auth and 7 of them need a real key (Stripe, Salesforce,
+Google Workspace, ...), which a reader cannot reproduce in 30 seconds. The additions below are all **keyless**: anonymous GETs,
 reproducible by anyone with `curl`, probed by the existing runner with `auth: {kind: none}` (same
 shape as `services/pypi.yaml` and `services/npm-registry.yaml`).
 
@@ -19,27 +19,32 @@ HTML instead of JSON, silent caps, rate limits reported oddly). The routine dogf
 source here: its 45 failures of 2026-11-02 were all `api.github.com` contents 404s, closed by #118.
 
 Estimate per service = service YAML with ToS fields + 6–10 probes + facts + `pages build`, measured
-against the pypi (10 probes, 16 facts) and npm-registry seeds.
+against the pypi (10 probes, 16 facts) and npm-registry seeds. Keys follow `apifacts/api/seed_hosts.py`
+(`SEED_HOSTS`), where 12 of the 15 are already listed. Three are not — `go-proxy`
+(proxy.golang.org, sum.golang.org), `osv` (api.osv.dev), `deps-dev` (api.deps.dev) — and
+`tests/api/test_registered_services_hosts_are_listed` fails until they are added there; that step is
+in their hours (+0.5 each). `apifacts/api/` is a sensitive zone (`AGENTS.md`): adding seed hosts
+goes in the same PR as the service, with the maintainer's go-ahead.
 
 | # | Service (`key`) | Host(s) | Likely facts to probe | ToS / policy to cite | Agent-hours |
 |---|-----------------|---------|-----------------------|----------------------|-------------|
 | 1 | crates.io (`crates-io`) | crates.io, index.crates.io | 403 without a User-Agent; sparse index vs API; 404 body shape | crates.io data access policy (1 req/s, UA required) | 2 |
 | 2 | Docker Hub registry (`docker-hub`) | registry-1.docker.io, auth.docker.io, hub.docker.com | anonymous pull token dance; 401 + `WWW-Authenticate` before any pull; `ratelimit-*` headers; 429 `TOOMANYREQUESTS` | Docker Hub usage and limits | 3 |
-| 3 | Hugging Face Hub (`huggingface-hub`) | huggingface.co | gated repo 401 vs 403 vs 404; `resolve/` redirect to CDN; `X-Error-Code` header | Hub API docs, ToS | 3 |
-| 4 | Go module proxy (`go-proxy`) | proxy.golang.org, sum.golang.org | case-encoding `!x` in paths; 404 vs 410 for gone versions; `@latest` | proxy.golang.org privacy/policy | 2 |
+| 3 | Hugging Face Hub (`huggingface`) | huggingface.co | gated repo 401 vs 403 vs 404; `resolve/` redirect to CDN; `X-Error-Code` header | Hub API docs, ToS | 3 |
+| 4 | Go module proxy (`go-proxy`) | proxy.golang.org, sum.golang.org | case-encoding `!x` in paths; 404 vs 410 for gone versions; `@latest` | proxy.golang.org privacy/policy | 2.5 |
 | 5 | Maven Central (`maven-central`) | repo1.maven.org, search.maven.org, central.sonatype.com | search API `rows` cap; metadata XML vs JSON; 404 for missing POM | Sonatype Central terms | 2 |
 | 6 | RubyGems (`rubygems`) | rubygems.org | `/api/v1/gems/{name}.json` 404 is plain text; rate limit 429 | RubyGems API docs (rate limits) | 2 |
-| 7 | OSV.dev (`osv`) | api.osv.dev | `querybatch` returns ids only; ecosystem name case sensitivity; empty `{}` on no vulns | OSV API docs | 2 |
-| 8 | deps.dev (`deps-dev`) | api.deps.dev | URL-encoding of package names; 404 vs empty; v3 vs v3alpha | deps.dev API terms | 2 |
+| 7 | OSV.dev (`osv`) | api.osv.dev | `querybatch` returns ids only; ecosystem name case sensitivity; empty `{}` on no vulns | OSV API docs | 2.5 |
+| 8 | deps.dev (`deps-dev`) | api.deps.dev | URL-encoding of package names; 404 vs empty; v3 vs v3alpha | deps.dev API terms | 2.5 |
 | 9 | Wikipedia / MediaWiki (`wikipedia`) | en.wikipedia.org | errors are HTTP 200 with `error` in body; `maxlag`; UA policy 403; REST vs Action API | Wikimedia User-Agent policy, API etiquette | 3 |
-| 10 | Wikidata SPARQL (`wikidata-sparql`) | query.wikidata.org | 60 s timeout returned as 500 with Java stack text; 429 + `Retry-After`; UA required | WDQS user manual, usage policy | 2 |
+| 10 | Wikidata SPARQL (`wikidata`) | query.wikidata.org | 60 s timeout returned as 500 with Java stack text; 429 + `Retry-After`; UA required | WDQS user manual, usage policy | 2 |
 | 11 | OpenStreetMap Nominatim (`nominatim`) | nominatim.openstreetmap.org | 403 without a valid UA; empty array for no match; `format` default HTML | Nominatim usage policy (1 req/s, no bulk) | 2 |
 | 12 | Open-Meteo (`open-meteo`) | api.open-meteo.com | 400 with `{"error":true,"reason":...}`; silent clamp of forecast days; daily-limit 429 | Open-Meteo terms (non-commercial free tier) | 2 |
 | 13 | arXiv API (`arxiv`) | export.arxiv.org | Atom XML only; errors as a feed entry with HTTP 200; `max_results` cap; 3 s politeness | arXiv API terms of use | 2 |
 | 14 | Crossref (`crossref`) | api.crossref.org | 404 is plain text `Resource not found.`; deep paging needs `cursor`; polite pool via `mailto` | Crossref REST API etiquette | 2 |
 | 15 | Hacker News API (`hacker-news`) | hacker-news.firebaseio.com, hn.algolia.com | missing item is HTTP 200 with `null`; Algolia `hitsPerPage` cap 1000 total | HN API README; Algolia HN Search terms | 2 |
 
-Total: about 33 agent-hours, no keys, no money. All 15 are new probes ("probe needed"); none exists in
+Total: about 34.5 agent-hours, no keys, no money. All 15 are new probes ("probe needed"); none exists in
 `probes/` today. Order: 9, 4, 1, 2, 3 first (largest agent audiences), the rest as time allows. 25
 services is the floor for posting (D-092: 25–30), so the post can go with 10 of the 15.
 
@@ -83,13 +88,14 @@ First comment (author), plain text, posted right after submission:
 > a normalized observation is stored (no bodies, headers, query strings or raw IPs). Enough
 > independent observations turn into a draft fact that a probe then has to confirm.
 >
-> Today: N services (GitHub, PyPI, npm, Stripe, Wikipedia, ...) and M facts. Code MIT, data
+> Today: N services (GitHub, PyPI, npm, Stripe, ...) and M facts. Code MIT, data
 > CC BY 4.0: https://github.com/Illouminus/apifacts
 >
 > What I would like to know: which API burns your agent's tokens most often? That decides the
 > next probes.
 
-Before posting, replace N and M with `/v0/services` numbers of that day, and run the `uvx` line from
+Before posting, replace N and M with `/v0/services` numbers of that day (the named services too:
+only those already live there), and run the `uvx` line from
 a clean machine: the answer must be the fact `https://apifacts.dev/pypi/json-trailing-slash-301`
 (checked 2026-11-23 online and with `uvx --from apifacts==0.3.0 ... --offline`; `--offline` from a
 git checkout answers nothing because the packaged snapshot is filled only at wheel build).
@@ -109,9 +115,12 @@ HN guidelines for Show HN: the thing must be usable now without signup, and it i
 - **Watch for 7 days:** the weekly digest numbers, plus `apifacts stats readers` daily.
 
 **Success (proposed gate for the maintainer's decision):** at least **10 unique external
-`POST /v0/check` clients within 7 days of the post** (external = not `traffic.own`, as counted in
-the weekly digest). Below 10, the project moves to "registry for our own routines" with no further
-external distribution work.
+`POST /v0/check` clients in the salt week that contains the post** — for a post on 08.12 or 09.12,
+the week Monday 2026-12-07 00:00 UTC → 2026-12-14, read by the weekly digest of 2026-12-14
+(external = not `traffic.own`). The count is per salt week because "distinct networks" is exact only
+inside one salt period (`apifacts/api/adoption.py`); a rolling 7 days from the post would cross two
+salts. Hence the Tuesday/Wednesday post: it leaves 5–6 days of that week. Below 10, the project
+moves to "registry for our own routines" with no further external distribution work.
 
 Secondary signals (do not decide the gate): front page yes/no, points, comments asking for a
 specific API, GitHub stars, PyPI downloads net of mirrors.
